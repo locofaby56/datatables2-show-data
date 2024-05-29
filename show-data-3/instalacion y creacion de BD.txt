@@ -1,0 +1,29 @@
+video : https://youtu.be/0-whMExea08?si=mDRp5ETKSUFSRcFj&t=1468
+
+Base de datos MYSQL : https://railway.app/
+
+crear tabla : products
+
+campos de la tablas :
+id - serial - Pk
+description - text
+stock - integer
+price - integer
+
+-- create --
+
+
+llenamos uno o dos datos 
+
+dentro del proyecto backend, ejecutamos 
+npm i express cors mysql2
+
+
+dentro del archivo nuevo creado package.json
+debajo de main colocamos 
+"type":"module",
+y dentro de scripts 
+"start":"node server.js"
+
+
+y ejecutamos npm start 
